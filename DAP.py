@@ -109,8 +109,8 @@ class LightGCN(BasicModel):
             all_emb_cluster = kmeans.fit_predict(all_emb_i.to('cpu'))
             for k_cluster in range(num_cluster):
                 index = np.where(all_emb_cluster == k_cluster)
-                embs_cluster = all_emb_i[index[0]]  # 得到每一簇中的embeddings
-                degree_cluster = degree[index[0]].unsqueeze(1)  # 得到每一簇中的degree列表
+                embs_cluster = all_emb_i[index[0]]  
+                degree_cluster = degree[index[0]].unsqueeze(1) 
                 for i in range(len(index[0])):
                     if degree[index[0][i]] > degree_cluster.min() and degree[index[0][i]] < degree_cluster.max():
                         degree_higher_index = torch.where(degree_cluster > degree[index[0][i]])
