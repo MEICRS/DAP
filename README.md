@@ -3,7 +3,7 @@
 This is our implementation for the paper 'How Graph Convolutions Amplify Popularity Bias for Recommendation?' 
 published at Frontiers of Computer Science
       
-        @article{JiajiachenDAP,
+        @article{JiajiachenDAP2023,
         author = {Jiajia CHEN, Jiancan WU, Jiawei CHEN, Xin XIN, Yong LI, Xiangnan HE},
         title = {How Graph Convolutions Amplify Popularity Bias for Recommendation?},
         publisher = {Front. Comput. Sci.},
