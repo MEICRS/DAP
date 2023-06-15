@@ -1,6 +1,6 @@
 # DAP
 
-This is our Pytorch implementation for the paper 'How Graph Convolutions Amplify Popularity Bias for Recommendation?' 
+This is our implementation for the paper 'How Graph Convolutions Amplify Popularity Bias for Recommendation?' 
 published at Frontiers of Computer Science
       
         @article{JiajiachenDAP,
