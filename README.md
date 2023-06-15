@@ -19,6 +19,6 @@ published at Frontiers of Computer Science
         doi = {10.1007/s11704-023-2655-2}
         }    
 
-
+You can run this method by modify the code.py in [LightGCN-Pytorch] (#https://github.com/gusye1234/LightGCN-PyTorch)
 
 
